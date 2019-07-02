@@ -1,10 +1,5 @@
-const defaultAwesomeFunction = (name) => {
-  const returnStr = `I am the Default Awesome Function, fellow comrade! - ${name}`;
-  return returnStr;
-};
+import AsyncButton from "./async-button/AsyncButton.jsx";
 
-const awesomeFunction = () => 'I am just an Awesome Function';
-
-export default defaultAwesomeFunction;
-
-export { awesomeFunction };
+export default
+  AsyncButton
+;
