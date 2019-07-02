@@ -44,25 +44,6 @@ export default class AsyncButtonExampleView extends React.Component{
                                 <div className={"row mb-4"}>
                                     <div className={"col-3"}>
                                         <div className={"text-info"}>
-                                            duration
-                                        </div>
-                                    </div>
-                                    <div className={"col-9"}>
-                                        <p>
-                                            <span className={"badge badge-pill badge-secondary mr-2"}>Optional</span>
-                                            <span className={"badge badge-pill badge-secondary mr-2"}>Integer</span>
-                                        </p>
-                                        <p>
-                                            Minimum wait in ms before the button can be clicked again. If the onClick function is completed after the duration passed since the click event, it will have no effect.
-                                        </p>
-                                        <p>
-                                            Default: 1500
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className={"row mb-4"}>
-                                    <div className={"col-3"}>
-                                        <div className={"text-info"}>
                                             onClick
                                         </div>
                                     </div>
