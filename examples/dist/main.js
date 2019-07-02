@@ -112,15 +112,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var website_toolkit_index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! website-toolkit/index */ "./src/index.js");
-/* harmony import */ var react_gist__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-gist */ "./node_modules/react-gist/es/index.js");
-/* harmony import */ var _async_button_AsyncButtonExample1__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./async-button/AsyncButtonExample1 */ "./examples/src/async-button/AsyncButtonExample1.jsx");
-/* harmony import */ var _async_button_AsyncButtonExample2__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./async-button/AsyncButtonExample2 */ "./examples/src/async-button/AsyncButtonExample2.jsx");
-/* harmony import */ var _async_button_AsyncButtonExample3__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./async-button/AsyncButtonExample3 */ "./examples/src/async-button/AsyncButtonExample3.jsx");
-
-
-
-
+/* harmony import */ var _async_button_AsyncButtonExampleView__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./async-button/AsyncButtonExampleView */ "./examples/src/async-button/AsyncButtonExampleView.jsx");
 
 
 
@@ -165,37 +157,7 @@ function (_React$Component) {
         className: "my-5"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "text-center display-3 mb-5"
-      }, "Website Toolkit"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        id: "async-button"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
-        className: "display-4 font-weight-light mb-5 "
-      }, "Async button"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "col-md-6 col-12"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "mr-3"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "mb-5"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h5", null, "Basic usage"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Buttons that will run async task when clicked. The button will be disabled until the task is completed and a minimum duration is passed.")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "my-5"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h5", null, "Props"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "col-3"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "text-info"
-      }, "duration")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "col-9"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "badge badge-pill badge-secondary mr-2"
-      }, "Optional"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-        className: "badge badge-pill badge-secondary mr-2"
-      }, "Integer")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Minimum wait in ms before the button can be clicked again. If the onClick function is completed after the duration passed since the click event, it will have no effect."), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Default: 1500")))))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "col-md-6 col-12"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "ml-3"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_async_button_AsyncButtonExample1__WEBPACK_IMPORTED_MODULE_10__["default"], null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_async_button_AsyncButtonExample2__WEBPACK_IMPORTED_MODULE_11__["default"], null), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_async_button_AsyncButtonExample3__WEBPACK_IMPORTED_MODULE_12__["default"], null)))))));
+      }, "Website Toolkit"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_async_button_AsyncButtonExampleView__WEBPACK_IMPORTED_MODULE_8__["default"], null)));
     }
   }]);
 
@@ -257,13 +219,13 @@ function (_React$Component) {
         className: "mb-5"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
         className: "mb-3"
-      }, "Example:"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "When no onClick function is provided. The button will display the loading animation then return to normal."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "It can be styled with ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+      }, "Basic usage"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "When no ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         className: "text-info"
-      }, "className"), " props"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_gist__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      }, "onClick"), " function is provided. The button will display the loading animation then return to normal."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "It can be styled with ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "text-info"
+      }, "className"), "."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_gist__WEBPACK_IMPORTED_MODULE_6__["default"], {
         id: "c1813475b2ed52f9c2d80b9ac001e56a"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
-        className: "mb-3"
-      }, "Preview:"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(website_toolkit_index__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(website_toolkit_index__WEBPACK_IMPORTED_MODULE_7__["default"], {
         className: "btn btn-primary"
       }, "Test"));
     }
@@ -331,14 +293,14 @@ function (_React$Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "mb-5"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "When an async ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h5", {
+        className: "mb-3"
+      }, "onClick"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "When an async ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
         className: "text-info"
       }, "onClick"), " function is provided, the button will wait until the function is finished."), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_gist__WEBPACK_IMPORTED_MODULE_8__["default"], {
         id: "d96823f2253cdb6a864b554f991f293c"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h5", {
-        className: "mb-3"
-      }, "Preview:"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(website_toolkit_index__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        className: "btn btn-primary",
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(website_toolkit_index__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        className: "btn btn-primary mr-1",
         onClick:
         /*#__PURE__*/
         _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1___default()(
@@ -349,8 +311,6 @@ function (_React$Component) {
             while (1) {
               switch (_context.prev = _context.next) {
                 case 0:
-                  // Running an async function / promise that take 5 seconds to finish
-                  // The button cannot be clicked until it is completed
                   p = new Promise(function (resolve) {
                     return setTimeout(function () {
                       return resolve("Awake");
@@ -372,7 +332,21 @@ function (_React$Component) {
             }
           }, _callee);
         }))
-      }, "Test"));
+      }, "Test 1"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(website_toolkit_index__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        className: "btn btn-primary mr-1",
+        onClick: function onClick() {
+          return new Promise(function (resolve) {
+            return setTimeout(function () {
+              return resolve("Awake");
+            }, 5000);
+          });
+        }
+      }, "Test 2"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(website_toolkit_index__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        className: "btn btn-primary mr-1",
+        onClick: function onClick() {
+          return console.log("Clicked");
+        }
+      }, "Test 3"));
     }
   }]);
 
@@ -448,7 +422,7 @@ function (_React$Component) {
 
     _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_8___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this), "state", {
       count: 0,
-      error: 0
+      error: "No Error"
     });
 
     return _this;
@@ -461,126 +435,241 @@ function (_React$Component) {
 
       return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "mb-5"
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", null, "Use the onFinish and onError props to handle async function result."), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(react_gist__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        id: "3537a23102dd03100cdff8700b489a71"
-      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("h5", {
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("h5", {
         className: "mb-3"
-      }, "Preview:"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+      }, "Error Handling"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", null, "Use the onFinish and onError props to handle async function result."), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(react_gist__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        id: "3537a23102dd03100cdff8700b489a71"
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-        className: "col-auto text-center"
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", null, "Count: ", this.state.count), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(website_toolkit_index__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        className: "btn btn-primary",
+        className: "col-auto"
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", null, "Count: ", this.state.count), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", null, "Error: ", this.state.error), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(website_toolkit_index__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        className: "btn btn-primary mr-2",
+        onClick: function onClick() {
+          return new Promise(function (resolve) {
+            return setTimeout(function () {
+              return resolve(2);
+            }, 3000);
+          });
+        },
+        onFinish: function onFinish(res) {
+          return _this2.setState({
+            count: _this2.state.count + res
+          });
+        }
+      }, "onFinish"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(website_toolkit_index__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        className: "btn btn-primary mr-2",
         onClick:
         /*#__PURE__*/
         _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1___default()(
         /*#__PURE__*/
         _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
-          var p;
           return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
             while (1) {
               switch (_context.prev = _context.next) {
                 case 0:
-                  p = new Promise(function (resolve) {
+                  _context.next = 2;
+                  return new Promise(function (resolve, reject) {
                     return setTimeout(function () {
-                      return resolve(2);
+                      return reject("Handled Error");
                     }, 3000);
                   });
-                  _context.next = 3;
-                  return p;
 
-                case 3:
+                case 2:
                   return _context.abrupt("return", _context.sent);
 
-                case 4:
+                case 3:
                 case "end":
                   return _context.stop();
               }
             }
           }, _callee);
         })),
-        onFinish: function onFinish(res) {
+        onError: function onError(error) {
           _this2.setState({
-            count: _this2.state.count + res
+            error: error
           });
         }
-      }, "Add")), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-        className: "col-auto text-center"
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", null, "Handled Error: ", this.state.error), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(website_toolkit_index__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        className: "btn btn-primary",
+      }, "onError"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(website_toolkit_index__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        className: "btn btn-primary mr-2",
         onClick:
         /*#__PURE__*/
         _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1___default()(
         /*#__PURE__*/
         _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2() {
-          var p;
           return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
             while (1) {
               switch (_context2.prev = _context2.next) {
                 case 0:
-                  p = new Promise(function (resolve, reject) {
+                  _context2.next = 2;
+                  return new Promise(function (resolve, reject) {
                     return setTimeout(function () {
-                      return reject("Handled Error");
+                      return reject("Unhandled Error");
                     }, 3000);
                   });
-                  _context2.next = 3;
-                  return p;
 
-                case 3:
+                case 2:
                   return _context2.abrupt("return", _context2.sent);
 
-                case 4:
+                case 3:
                 case "end":
                   return _context2.stop();
               }
             }
           }, _callee2);
-        })),
-        onError: function onError(error) {
-          console.error(error);
-
-          _this2.setState({
-            error: _this2.state.error + 1
-          });
-        }
-      }, "Error")), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-        className: "col-auto text-center"
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", null, "Unhandled Error"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(website_toolkit_index__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        className: "btn btn-primary",
-        onClick:
-        /*#__PURE__*/
-        _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1___default()(
-        /*#__PURE__*/
-        _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee3() {
-          var p;
-          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee3$(_context3) {
-            while (1) {
-              switch (_context3.prev = _context3.next) {
-                case 0:
-                  p = new Promise(function (resolve, reject) {
-                    return setTimeout(function () {
-                      return reject("Unhandled Error");
-                    }, 3000);
-                  });
-                  _context3.next = 3;
-                  return p;
-
-                case 3:
-                  return _context3.abrupt("return", _context3.sent);
-
-                case 4:
-                case "end":
-                  return _context3.stop();
-              }
-            }
-          }, _callee3);
         }))
-      }, "Error"))));
+      }, "Unhanded Error"))));
     }
   }]);
 
   return AsyncButtonExample1;
 }(react__WEBPACK_IMPORTED_MODULE_9___default.a.Component);
+
+
+
+/***/ }),
+
+/***/ "./examples/src/async-button/AsyncButtonExampleView.jsx":
+/*!**************************************************************!*\
+  !*** ./examples/src/async-button/AsyncButtonExampleView.jsx ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return AsyncButtonExampleView; });
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _AsyncButtonExample1__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./AsyncButtonExample1 */ "./examples/src/async-button/AsyncButtonExample1.jsx");
+/* harmony import */ var _AsyncButtonExample2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./AsyncButtonExample2 */ "./examples/src/async-button/AsyncButtonExample2.jsx");
+/* harmony import */ var _AsyncButtonExample3__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./AsyncButtonExample3 */ "./examples/src/async-button/AsyncButtonExample3.jsx");
+
+
+
+
+
+
+
+
+
+
+var AsyncButtonExampleView =
+/*#__PURE__*/
+function (_React$Component) {
+  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default()(AsyncButtonExampleView, _React$Component);
+
+  function AsyncButtonExampleView() {
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, AsyncButtonExampleView);
+
+    return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default()(AsyncButtonExampleView).apply(this, arguments));
+  }
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(AsyncButtonExampleView, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        id: "async-button"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "display-4 font-weight-light mb-5"
+      }, "Async button"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-md-6 col-12"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "mr-3"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "mb-5"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "Buttons that will run async task when clicked. The button will be disabled until the task is completed and a minimum duration is passed.")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "my-5"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", null, "Props"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row mb-4"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-3"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "text-info"
+      }, "duration")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-9"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "badge badge-pill badge-secondary mr-2"
+      }, "Optional"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "badge badge-pill badge-secondary mr-2"
+      }, "Integer")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "Minimum wait in ms before the button can be clicked again. If the onClick function is completed after the duration passed since the click event, it will have no effect."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "Default: 1500"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row mb-4"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-3"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "text-info"
+      }, "duration")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-9"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "badge badge-pill badge-secondary mr-2"
+      }, "Optional"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "badge badge-pill badge-secondary mr-2"
+      }, "Integer")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "Minimum wait in ms before the button can be clicked again. If the onClick function is completed after the duration passed since the click event, it will have no effect."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "Default: 1500"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row mb-4"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-3"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "text-info"
+      }, "onClick")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-9"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "badge badge-pill badge-secondary mr-2"
+      }, "Optional"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "badge badge-pill badge-secondary mr-2"
+      }, "Function")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "Callback function when the button is clicked. If an async function is provided, the button will await for it's completion."))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row mb-4"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-3"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "text-info"
+      }, "onFinish")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-9"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "badge badge-pill badge-secondary mr-2"
+      }, "Optional"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "badge badge-pill badge-secondary mr-2"
+      }, "Function")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "Callback function after onClick is completed. Accept return value of onClick as argument."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "Default: 1500"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row mb-4"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-3"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "text-info"
+      }, "onError")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-9"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "badge badge-pill badge-secondary mr-2"
+      }, "Optional"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "badge badge-pill badge-secondary mr-2"
+      }, "Function")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "Callback function if an exception is thrown. Accept the thrown error as argument."))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row mb-4"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-3"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "text-info"
+      }, "children")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-9"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "Anything that can be rendered within the button.")))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-md-6 col-12"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "ml-3"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_AsyncButtonExample1__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_AsyncButtonExample2__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_AsyncButtonExample3__WEBPACK_IMPORTED_MODULE_8__["default"], null)))));
+    }
+  }]);
+
+  return AsyncButtonExampleView;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
 
 

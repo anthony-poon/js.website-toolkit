@@ -29,7 +29,7 @@ export default class AsyncButton extends React.Component {
                 new Promise(((resolve) => {
                     setTimeout(resolve, duration);
                 }))
-            ])
+            ]);
             this.setState({
                 isRunning: false
             }, () => {
