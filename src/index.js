@@ -1,5 +1,7 @@
-import AsyncButton from "./async-button/AsyncButton.jsx";
+import AsyncButton from "./async-button/AsyncButton";
+import SpinnerDiv from "./spinner-div/SpinnerDiv"
 
-export default
-  AsyncButton
-;
+export {
+    AsyncButton,
+    SpinnerDiv
+}

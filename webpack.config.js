@@ -1,11 +1,13 @@
 const path = require('path');
-const ManifestPlugin = require('webpack-manifest-plugin');
 module.exports = {
+    target: 'web',
     mode: 'production',
-    entry: './src/main.js',
+    entry: './src/index.js',
     output: {
         filename: 'index.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
+        library: '',
+        libraryTarget: 'commonjs'
     },
     resolve: {
         alias: {
@@ -21,10 +23,15 @@ module.exports = {
                 use: {
                     loader: "babel-loader"
                 }
+            },
+            {
+                test: /\.scss$/,
+                use: [
+                    "style-loader",
+                    "css-loader",
+                    "sass-loader"
+                ]
             }
         ]
-    },
-    plugins: [
-        new ManifestPlugin()
-    ]
+    }
 };

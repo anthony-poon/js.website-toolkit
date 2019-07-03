@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Test 1`] = `
+<button
+  disabled={false}
+  duration={1500}
+  onClick={[Function]}
+  type="button"
+>
+  Testing
+</button>
+`;
+
+exports[`Render Test 2`] = `
+<button
+  disabled={true}
+  duration={1500}
+  onClick={[Function]}
+  type="button"
+>
+  <span
+    aria-hidden="true"
+    className="spinner-border spinner-border-sm"
+    role="status"
+  />
+</button>
+`;

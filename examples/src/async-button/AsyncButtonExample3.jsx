@@ -1,6 +1,6 @@
 import React from "react"
 import Gist from "react-gist";
-import AsyncButton from "website-toolkit/index";
+import {AsyncButton} from "website-toolkit/index";
 
 export default class AsyncButtonExample1 extends React.Component{
     state = {

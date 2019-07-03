@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Test 1`] = `
+<div
+  className="async-div__wrapper "
+>
+  Testing
+</div>
+`;
+
+exports[`Render Test 2`] = `
+<div
+  className="async-div__wrapper "
+>
+  <div
+    className="async-div__popover "
+  >
+    <span
+      aria-hidden="true"
+      className="spinner-border spinner-border-sm text-primary"
+      role="status"
+    />
+  </div>
+  Testing
+</div>
+`;

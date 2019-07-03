@@ -1,9 +1,8 @@
 import React from "react";
 import AsyncButtonExampleView from "./async-button/AsyncButtonExampleView";
+import SpinnerDivExampleView from "./spinner-div/SpinnerDivExampleView";
+
 export default class ExampleApp extends React.Component{
-    state = {
-        exampleVar: {}
-    };
     render() {
         return (
             <div className={"container"}>
@@ -12,6 +11,7 @@ export default class ExampleApp extends React.Component{
                         Website Toolkit
                     </div>
                     <AsyncButtonExampleView/>
+                    <SpinnerDivExampleView/>
                 </div>
             </div>
         );
