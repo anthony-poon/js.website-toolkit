@@ -2,7 +2,7 @@
     "name": "website-toolkit",
     "version": "0.0.1-0",
     "description": "Reusable react component for building responsive website.",
-    "main": "./lib/index.js",
+    "main": "./dist/index.js",
     "scripts": {
         "dev:clean": "rimraf examples/dist",
         "dev:build": "webpack --watch --config webpack.dev.js",
@@ -14,12 +14,11 @@
         "prod": "npm run prod:clean && npm run prod:build"
     },
     "files": [
-        "lib",
-        "src"
+        "/dist"
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/flexdinesh/npm-module-boilerplate.git"
+        "url": "git+https://github.com/anthony-poon/js.website-toolkit"
     },
     "keywords": [
         "boilerplate",
