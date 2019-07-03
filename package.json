@@ -1,6 +1,6 @@
 {
     "name": "website-toolkit",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Reusable react component for building responsive website.",
     "main": "./lib/index.js",
     "scripts": {
